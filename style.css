@@ -1,0 +1,67 @@
+body {
+      font-family: helvetica;
+      font-size: 14px;
+}
+
+#cy {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 999;
+}
+
+h1 {
+      opacity: 0.5;
+      font-size: 1em;
+}
+
+ #search-wrapper {
+      position: relative;
+      left: 0;
+      top: 0;
+      z-index: 9999;
+      margin: 0.5em;
+      width: 200em;
+}
+
+#search {
+      width: 14em;
+}
+
+.tt-dropdown-menu {
+  background: #fff;
+  width: 14em;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+  max-height: 20em;
+  overflow: auto;
+  margin-top: 0.5em;
+}
+
+.tt-dropdown-menu * {
+  margin: 0;
+  padding: 0;
+}
+
+.tt-suggestion {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tt-suggestion + .tt-suggestion {
+  border-top: 1px solid #ccc;
+}
+
+.ac-name {
+  font-size: 1.25em;
+}
+.ui-autocomplete .ui-menu-item:hover,
+.ui-autocomplete .ui-menu-item.ui-state-focus{
+    background-color:  #2ea2cc !important;
+    background-image: none;
+    color: #fff;
+    border: none;
+}
